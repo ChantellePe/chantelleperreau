@@ -7,7 +7,10 @@
   white-space: nowrap;
   display: block;
 }
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .header {
   float: right;
   position: fixed;
@@ -44,7 +47,7 @@
 .bgImg{
   height: 650px;
   border-radius: 50%;
-  overflow: hidden;
+  overflow: auto;
   z-index: 3;
   position: fixed;
   right:10px;
@@ -62,7 +65,7 @@
   margin-left: 80px;
   font-size: 1.8rem;
   padding: 15px 20px;
-
+  cursor: pointer;
 }
 
 .body {
@@ -90,9 +93,16 @@
   white-space: nowrap;
 }**/
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (max-width: 1919px) {
 
   .bgImg{
     height:800px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+
+  .bgImg{
+    height:1000px;
   }
 }
