@@ -1,11 +1,41 @@
+import { useState } from 'react';
 import img from './utils/CPBW.png'
 import gomoku from './utils/Gomoku.png'
 import calc from './utils/uniGradeCalc.png'
-import fe from './utils/FrontEndOLd2.png'
+import fe from './utils/FrontEnd.png'
 import be from './utils/Back.png'
 import './App.css';
 
+
 function App() {
+  //   const [isHovered, setIsHovered] = useState(false);
+  
+  //   const handleMouseEnter = () => {
+  //     setIsHovered(true);
+  //   };
+  
+  //   const handleMouseLeave = () => {
+  //     setIsHovered(false);
+  //   };
+  
+  // const itemClass = () =>{
+  //   if (isHovered) {
+  //     return 'exampleDescription'
+  //   } else {
+  //     return `exampleDescription hidden`
+  //   }
+  // }
+
+  // const itemClass2 = () =>{
+  //   if (isHovered) {
+  //     return 'exampleDescription'
+  //   } else {
+  //     return `exampleDescription2 hidden`
+  //   } 
+  // }
+  
+  
+
   return (
     <div className="App">
       <img src={img} className='bgImg' alt="Chantelle Perreau"></img>
@@ -25,8 +55,8 @@ function App() {
     <section id="body">
       <div className='welcome'>
         <p className='intro'>Welcome to my site.<br></br></p>
-        <p className='about'>I am a Sydney-based Web Developer and System Analyst with with a passion for creating <br></br>captivating and interactive interfaces that engage and inspire.</p>
-        <p>My skillset includes:</p>
+        <p className='about'>I am a Sydney-based Web Developer with a passion for creating captivating and interactive <br></br>interfaces that engage and inspire.</p>
+        <p>My skills includes:</p>
       </div>
       <div className="flip-card">
         <div className="flip-card-inner">
@@ -61,18 +91,32 @@ function App() {
           </div>
         </div>
 
-    {/* <li className='nobullet'>Back End</li> */}
-          
-    {/* <p className='edu'>My education includes a Graduate Diploma of Information Technology from UNE, <br></br>where I graduated with a GPA of 7.0 and an average grade of 94.5%</p> */}
-        
+        <p className='welcome intro edu'>My education includes a Graduate Diploma of Information Technology from UNE, <br></br>where I graduated with a GPA of 7.0 and an average grade of 94.5%</p>
+
           
     <div id="content">
-    <h2 id="myWork" className="projects">My Portfolio</h2>
-      <button id="web1">
+    <h2 id="myWork" className="projects">Examples</h2>
+      <button className="portfolio" id="web1"
+          // onMouseEnter={handleMouseEnter}
+          // onMouseLeave={handleMouseLeave}
+          >
         <img src={gomoku} className='projectBtn' alt="Gomoku"></img>
+        <div className="exampleDescription">
+          <h2 className="webDescBody">Girly Gomoku</h2>
+          <p className="webDescBody">Girly Gomoku is a web application built with React.js on the frontend, Express.js on the backend for server-side logic and a RESTful API, and MongoDB as the database. <br></br><br></br>
+            The app consists of a tongue-in-cheek design meant to satirize websites targeted towards women, hence the playful moniker 'Girly Gomoku'. <br></br><br></br>Users are able to register, play and retrieve completed games from the database, making for an enjoyable gaming experience. <br></br><br></br>The application is hosted using Heroku and Netlify (free tier).</p>
+        </div>
       </button>
-      <button id="web2">
-        <img src={calc} className='projectBtn2' alt="University Grade Calculator"></img>
+      <button className="portfolio" id="web2"
+          // onMouseEnter={handleMouseEnter}
+          // onMouseLeave={handleMouseLeave}
+          >
+        <img src={calc} className='projectBtn' alt="University Grade Calculator"></img>
+        <div className="exampleDescription2">
+          <h2 className="webDescBody2">Girly Gomoku</h2>
+          <p className="webDescBody2">Girly Gomoku is a web application built with React.js on the frontend, Express.js on the backend for server-side logic and a RESTful API, and MongoDB as the database. <br></br><br></br>
+            The app consists of a tongue-in-cheek design meant to satirize websites targeted towards women, hence the playful moniker 'Girly Gomoku'. <br></br><br></br>Users are able to register, play and retrieve completed games from the database, making for an enjoyable gaming experience. <br></br><br></br>The application is hosted using Heroku and Netlify (free tier).</p>
+        </div>
       </button>
      </div>
     </section>
