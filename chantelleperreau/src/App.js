@@ -5,36 +5,32 @@ import calc from './utils/uniGradeCalc.png'
 import fe from './utils/FrontEnd.png'
 import be from './utils/Back.png'
 import './App.css';
-
-
+import 'animate.css';
 function App() {
-  //   const [isHovered, setIsHovered] = useState(false);
-  
-  //   const handleMouseEnter = () => {
-  //     setIsHovered(true);
-  //   };
-  
-  //   const handleMouseLeave = () => {
-  //     setIsHovered(false);
-  //   };
-  
-  // const itemClass = () =>{
-  //   if (isHovered) {
-  //     return 'exampleDescription'
-  //   } else {
-  //     return `exampleDescription hidden`
-  //   }
-  // }
 
-  // const itemClass2 = () =>{
-  //   if (isHovered) {
-  //     return 'exampleDescription'
-  //   } else {
-  //     return `exampleDescription2 hidden`
-  //   } 
-  // }
-  
-  
+  const [isButton1Hovered, setIsButton1Hovered] = useState(false);
+  const [isButton2Hovered, setIsButton2Hovered] = useState(false);
+
+  const handleButton1MouseEnter = () => {
+    setIsButton1Hovered(true);
+  };
+
+  const handleButton1MouseLeave = () => {
+    setIsButton1Hovered(false);
+  };
+
+  const handleButton2MouseEnter = () => {
+    setIsButton2Hovered(true);
+  };
+
+  const handleButton2MouseLeave = () => {
+    setIsButton2Hovered(false);
+  };
+
+  const button1Class = isButton1Hovered ? 'webDescBody animate__animated animate__fadeIn' : 'hidden';
+
+  const button2Class = isButton2Hovered ? 'webDescBody animate__animated animate__fadeIn' : 'hidden';
+
 
   return (
     <div className="App">
@@ -91,32 +87,35 @@ function App() {
           </div>
         </div>
 
-        <p className='welcome intro edu'>My education includes a Graduate Diploma of Information Technology from UNE, <br></br>where I graduated with a GPA of 7.0 and an average grade of 94.5%</p>
+        <p className='welcome intro edu'>I currently hold a Graduate Diploma of Information Technology from UNE, <br></br>where I graduated with a GPA of 7.0 and an average grade of 94.5%</p>
 
           
     <div id="content">
-    <h2 id="myWork" className="projects">Examples</h2>
+    <h3 id="myWork" className="projects">Projects</h3>
       <button className="portfolio" id="web1"
-          // onMouseEnter={handleMouseEnter}
-          // onMouseLeave={handleMouseLeave}
-          >
-        <img src={gomoku} className='projectBtn' alt="Gomoku"></img>
-        <div className="exampleDescription">
-          <h2 className="webDescBody">Girly Gomoku</h2>
-          <p className="webDescBody">Girly Gomoku is a web application built with React.js on the frontend, Express.js on the backend for server-side logic and a RESTful API, and MongoDB as the database. <br></br><br></br>
+      onMouseEnter={handleButton1MouseEnter}
+      onMouseLeave={handleButton1MouseLeave}>
+        <a href='https://girly-gomoku.netlify.app/'>
+          <img src={gomoku} className='projectBtn' alt="Gomoku"></img>
+        
+        <div className='exampleDescription'>
+          <h4 className="webDescBody">Girly Gomoku</h4>
+          <p id="webTitle" className={button1Class}>Girly Gomoku is a web application built with React.js on the frontend, Express.js on the backend for server-side logic and a RESTful API, and MongoDB as the database. <br></br><br></br>
             The app consists of a tongue-in-cheek design meant to satirize websites targeted towards women, hence the playful moniker 'Girly Gomoku'. <br></br><br></br>Users are able to register, play and retrieve completed games from the database, making for an enjoyable gaming experience. <br></br><br></br>The application is hosted using Heroku and Netlify (free tier).</p>
         </div>
+        </a>
       </button>
       <button className="portfolio" id="web2"
-          // onMouseEnter={handleMouseEnter}
-          // onMouseLeave={handleMouseLeave}
-          >
-        <img src={calc} className='projectBtn' alt="University Grade Calculator"></img>
-        <div className="exampleDescription2">
-          <h2 className="webDescBody2">Girly Gomoku</h2>
-          <p className="webDescBody2">Girly Gomoku is a web application built with React.js on the frontend, Express.js on the backend for server-side logic and a RESTful API, and MongoDB as the database. <br></br><br></br>
-            The app consists of a tongue-in-cheek design meant to satirize websites targeted towards women, hence the playful moniker 'Girly Gomoku'. <br></br><br></br>Users are able to register, play and retrieve completed games from the database, making for an enjoyable gaming experience. <br></br><br></br>The application is hosted using Heroku and Netlify (free tier).</p>
+      onMouseEnter={handleButton2MouseEnter}
+      onMouseLeave={handleButton2MouseLeave}>
+        <a href='https://unigradecalc.netlify.app/'>
+          <img src={calc} className='projectBtn' alt="Uni Grade Calc"></img>
+        
+        <div className='exampleDescription'>
+          <h4 className="webDescBody">University Grade Calculator</h4>
+          <p id="webTitle" className={button2Class}>The University Grade Calculator is a front end application written in vanilla Javascript (with some animations achieved using JQuery). It calculates your final grade based on your assessment results. <br></br><br></br>There are 8 seperate calculators as well as a customisable calculator that can take up to 10 assessments. <br></br><br></br>Users can use the 8 pre-built calculators to determine how I scored in that particular unit. <br></br><br></br>The application is hosted using Netlify (free tier).</p>
         </div>
+        </a>
       </button>
      </div>
     </section>
