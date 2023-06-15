@@ -1,11 +1,15 @@
+
+
 .App {
   text-align: center;
   width: 100%;
-  height: 550px;
+  height: 1500px;
   background-color: rgb(0, 0, 0);
   margin-top: -50px;
   white-space: nowrap;
   display: block;
+  overflow-y: auto;
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
@@ -13,8 +17,8 @@ a {
 }
 .header {
   float: right;
-  position: fixed;
-  height: 550px;
+  position: absolute;
+  height: 1000px;
   background-color: rgb(0, 0, 0);
   white-space: nowrap;
   display: inline-flex;
@@ -26,36 +30,36 @@ a {
 .mainTitle{
   color: white;
   float: left;
-  position: relative;
+  position: absolute;
   font-size: 7rem;
   left: 200px;
-  z-index: 2;
+  z-index: 7;
   align-self: center;
-  position: fixed;
 }
 
 .subheading, .check{
   display: block;
   color: white; 
   font-size: 2.5rem;
-  z-index: 1;
+  z-index: 0;
   left: 420px;
   top:180px;
-  position: fixed;
+  position: absolute;
 }
 
 .bgImg{
   height: 650px;
   border-radius: 50%;
   overflow: auto;
-  z-index: 3;
+  z-index: 0;
   position: fixed;
   right:10px;
 }
 
 .check {
-  position: fixed;
+  position: absolute;
   display: block;
+  box-shadow: -6px 6px 0 rgb(83, 39, 39);
   color: rgb(255, 255, 255);
   border: 3px solid rgb(83, 39, 39);
   background-color: black;
@@ -66,22 +70,217 @@ a {
   font-size: 1.8rem;
   padding: 15px 20px;
   cursor: pointer;
+  z-index: 3;
 }
 
-.body {
-  position: fixed;
-  margin-top: 550px;
-  height:1200px;
+.check:hover {
+  top: 303px;
+  box-shadow: -3px 3px 0 rgb(83, 39, 39);
+}
+.check::after {
+  top: 1px;
+  left: -2px;
+}
+  
+.check::before {
+  bottom: -2px;
+  right: 1px;
+}
+
+.check::after {
+  transition: all .15s linear 0s;
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: -4px;
+  background-color:  rgb(83, 39, 39);
+  transform: rotate(45deg);
   z-index: -1;
+}
+
+.check::before {
+  transition: all .15s linear 0s;
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  right: 2px;
+  background-color: rgb(83, 39, 39);
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+
+.body {
+  position: relative;
+  top:550px;
+  height:1000px;
+  z-index:8;
   width: 100%;
   background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+#body {
+  top: 50px;
+  position: absolute;
+}
+
+#content {
+  top: 100px;
+  position: absolute;
+}
+
+.welcome {
+  bottom: 100px;
+
+  color:white;
+  text-align: center;
+}
+
+.edu {
+  margin-top: 50px;
+}
+
+
+.welcome{
+  margin-top: 350px;
+  margin-left:340px;
+}
+
+.intro, .about{
+  z-index: 6;
+}
+
+#myWork{
+  color: white;
+  margin-top: 850px;
+  margin-left:575px;
+}
+
+.projectBtn{
+  position: absolute;
+  width: 280px;
+  height: 160px;
+  z-index: 10;
+  margin-top: 20px;
+  margin-left: -50px;
+  box-shadow: rgba(255, 255, 255, 0.521) 0px 3px 8px;
+}
+
+ul{
   color: white;
 }
 
-.aboutMe{
+.projectBtn2{
   position: absolute;
-  margin-left: 520px;
-  
+  width: 280px;
+  height: 160px;
+  z-index: 10;
+  margin-left: 325px;
+  margin-top: 20px;
+  box-shadow: rgba(255, 255, 255, 0.521) 0px 3px 8px;
+}
+
+
+#web1 {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+#web2 {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+ 
+}
+
+.skills {
+  color:white;
+  text-align: center;
+  position: relative;
+  list-style-type:none;
+  width: 180px;
+  height: 140px;
+  right:27px;
+}
+
+.feImg {
+  width: 180px;
+  height: 120px;
+  left:55px;
+  margin-top: 15px;
+}
+
+.flip-card, .flip-card2 {
+  background-color: transparent;
+  margin-top: -10px;
+  width: 200px;
+  height: 140px;
+  position: relative;
+  left:550px;
+  perspective: 1000px;
+  z-index: 4;
+  cursor: pointer;
+ 
+}
+
+.flip-card2 {
+  margin-top: 50px;
+}
+
+.flip-card-inner {
+  position: absolute;
+  width: 200px;
+  height: 120px;
+  text-align: center;
+  transition: transform 1.2s;
+  transform-style: preserve-3d;
+ 
+}
+
+.flip-card:hover .flip-card-inner, .flip-card2:hover .flip-card-inner{
+  transform: rotateY(180deg);
+
+}
+
+
+.flip-card-front, .flip-card-front2, .flip-card-back {
+  position: absolute;
+  backface-visibility: hidden;
+  width: 200px;
+  height: 170px;
+
+ 
+}
+
+.flip-card-front {
+  background-color: #bbbbbb00;
+  color: rgb(240, 240, 240);
+  width: 200px;
+  height: 140px;
+  box-shadow: 4px 2px 6px 1px rgba(95, 95, 95, 0.589);
+  border: 1px solid rgba(34, 34, 34, 0.185);
+}
+
+.flip-card-front2 {
+  background-color: #bbbbbb00;
+  color: rgb(240, 240, 240);
+  width: 200px;
+  height: 140px;
+  box-shadow: inset 4px -2px 6px 1px rgba(95, 95, 95, 0.589);
+  border: 1px solid rgba(34, 34, 34, 0.185);
+}
+
+
+.flip-card-back {
+  background-color: #00000000;
+  color: white;
+  transform: rotateY(180deg);
+  width: 200px;
+  height: 170px;
 }
 
 /**bgImg {
