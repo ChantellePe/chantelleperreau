@@ -456,12 +456,18 @@ ul {
 
  
 
-
+  #webTitle, #webTitle2 {
+    background-color: rgba(0, 0, 0, 0.8);
+    width:260px !important;
+    margin-right: 0;
+    padding: 15px;
+  }
   
 
   .bgImg{
-    opacity: 30%;
+    opacity: 20%;
     z-index: 1;
+    border-radius: 40%;
   }
 
   .welcome {
@@ -496,15 +502,15 @@ ul {
 
 
   .mainTitle{
-    font-size: 2rem;
+    font-size: 2.5rem;
     top: 50px;
-    left: 60px;
+    left: 35px;
     margin-bottom: 0;
   }
   .subheading{
-    font-size: 1.3rem;
-    left: 70px;
-    margin-top: -30px;
+    font-size: 1.4rem;
+    left: 60px;
+    margin-top: -10px;
   }
 
   .check{

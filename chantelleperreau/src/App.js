@@ -114,7 +114,7 @@ function App() {
         
         <div className='exampleDescription'>
           <h4 className="webDescBody">University Grade Calculator</h4>
-          <p id="webTitle" className={button2Class}>The University Grade Calculator is a front end application written in vanilla Javascript (with some animations achieved using JQuery). It calculates your final grade based on your assessment results. <br></br><br></br>There are 8 seperate calculators as well as a customisable calculator that can take up to 10 assessments. <br></br><br></br>Users can use the 8 pre-built calculators to determine how I scored in that particular unit. <br></br><br></br>The application is hosted using Netlify (free tier).</p>
+          <p id="webTitle2" className={button2Class}>The University Grade Calculator is a front end application written in vanilla Javascript (with some animations achieved using JQuery). It calculates your final grade based on your assessment results. <br></br><br></br>There are 8 seperate calculators as well as a customisable calculator that can take up to 10 assessments. <br></br><br></br>Users can use the 8 pre-built calculators to determine how I scored in that particular unit. <br></br><br></br>The application is hosted using Netlify (free tier).</p>
         </div>
         </a>
       </button>
