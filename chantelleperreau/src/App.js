@@ -51,7 +51,7 @@ function App() {
     <section id="body">
       <div className='welcome'>
         <p className='intro'>Welcome to my site.<br></br></p>
-        <p className='about'>I am a Sydney-based Web Developer with a passion for creating captivating and interactive <br></br>interfaces that engage and inspire.</p>
+        <p className='about'>I am a Sydney-based Web Developer with a passion for creating captivating and interactive interfaces that engage and inspire.</p>
         <p>My skills includes:</p>
       </div>
       <div className="flip-card">
@@ -87,7 +87,7 @@ function App() {
           </div>
         </div>
 
-        <p className='welcome intro edu'>I currently hold a Graduate Diploma of Information Technology from UNE, <br></br>where I graduated with a GPA of 7.0 and an average grade of 94.5%</p>
+        <p className='welcome intro edu'>I currently hold a Graduate Diploma of Information Technology from UNE, where I graduated with a GPA of 7.0 and an average grade of 94.5%</p>
         <p className='welcome intro edu'>Git: <a href="https://github.com/ChantellePe/">https://github.com/ChantellePe/</a></p>
 
           
