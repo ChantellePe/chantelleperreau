@@ -348,14 +348,9 @@ ul {
   height: 170px;
 }
 
-/**bgImg {
-  padding: 0;
-  height: 550px;
-  background-repeat: none;
-  clip-path: ellipse(50% 50% at 26% 28%);
-  border-radius: 50%;
-  white-space: nowrap;
-}**/
+#git {
+  color: rgb(193, 165, 226);
+}
 
 @media only screen and (max-width: 1919px) {
 
@@ -458,6 +453,8 @@ ul {
    
     z-index: 0;
   }
+
+ 
 
 
   

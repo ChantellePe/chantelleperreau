@@ -88,7 +88,7 @@ function App() {
         </div>
 
         <p className='welcome intro edu'>I currently hold a Graduate Diploma of Information Technology from UNE, where I graduated with a GPA of 7.0 and an average grade of 94.5%</p>
-        <p className='welcome intro edu'>Git: <a href="https://github.com/ChantellePe/">https://github.com/ChantellePe/</a></p>
+        <p className='welcome intro edu'>Git: <a id="git" href="https://github.com/ChantellePe/">https://github.com/ChantellePe/</a></p>
 
           
     <div id="content">
