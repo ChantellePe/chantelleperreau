@@ -455,7 +455,7 @@ ul {
 
 @media only screen and (max-width: 700px) {
   .App {
-    height:2235px;
+    height:2200px;
     z-index: 0;
     overflow: hidden;
   }
