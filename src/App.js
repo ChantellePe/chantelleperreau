@@ -5,6 +5,7 @@ import calc from './utils/uniGradeCalc.png'
 import fe from './utils/FrontEnd.png'
 import be from './utils/Back.png'
 import fs from './utils/FullStack.png'
+import c from './utils/BigC.png'
 import './App.css';
 import 'animate.css';
 
@@ -43,7 +44,8 @@ function App() {
     </section>
     
     <section>
-      <h1 className="mainTitle">Chantelle Perreau</h1>
+      <h1 className="mainTitle">hantelle Perreau</h1>
+      <img src={c} className='c' alt="C"></img>
       <img src={img} className='bgImg' alt="Chantelle Perreau"></img>
       <img src={fs} className='subHeadImg' alt="Full Stack Web Developer"></img>
       <button className="check">
@@ -126,7 +128,7 @@ function App() {
       </button>
      </div>
     </section>
-    
+
 
     
     <footer>
