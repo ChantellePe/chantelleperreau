@@ -430,6 +430,7 @@ ul {
     font-size: 4rem;
     left: 100px;
     position: relative;
+    margin-top: 100px;
   }
   .subheading{
     font-size: 2rem;
@@ -473,6 +474,7 @@ ul {
   .welcome {
    margin-left: 50px;
    width:300px;
+
   }
 
   .flip-card,  .flip-card2{
@@ -502,14 +504,14 @@ ul {
 
 
   .mainTitle{
-    font-size: 2.5rem;
-    top: 50px;
-    left: 45px;
+    font-size: 2.7rem;
+    top: 2px;
+    left: 25px;
     margin-bottom: 0;
   }
   .subheading{
     font-size: 1.4rem;
-    left:75px;
+    left:70px;
     margin-top: -10px;
   }
 
@@ -517,6 +519,7 @@ ul {
     font-size: 1.6rem;
     left: -2px;
     width:250px;
+    margin-top: -40px;
     
   }
 
