@@ -1,4 +1,12 @@
+
+@font-face {
+  font-family: 'MontBold';
+  src: url('../src/utils/fonts/FontsFree-Net-Mont-Bold.ttf') format('truetype');
+  /* You can also include other font formats such as woff, woff2, or svg */
+}
+
 .App {
+ 
   text-align: center;
   width: 100%;
   max-width: 100%;
@@ -8,7 +16,7 @@
   white-space: nowrap;
   display: block;
   overflow-x: hidden !important;
-  overflow-y: scroll;
+  overflow-y: hidden;
   scroll-behavior: smooth;
   white-space: nowrap;
   position: absolute;
@@ -37,8 +45,10 @@ footer {
   color: white;
   z-index: 8;
   position: absolute;
-  margin-top: 2190px;
+  margin-top: 2200px;
   overflow-x: hidden;
+  font-family: 'MontBold', sans-serif;
+  margin-left: 20px;
 }
 
 h3 {
@@ -54,9 +64,18 @@ h4 {
   float: left;
   position: absolute;
   font-size: 6rem;
-  left: 250px;
+  left: 220px;
   z-index: 7;
   align-self: center;
+  font-family: 'MontBold', sans-serif;
+}
+
+.subHeadImg {
+  margin-top: 200px;
+  left:360px;
+  width: 600px;
+  position: absolute;
+  z-index: 5;
 }
 
 .subheading,
@@ -94,6 +113,7 @@ h4 {
   font-size: 1.8rem;
   padding: 15px 20px;
   cursor: pointer;
+  font-family: 'MontBold', sans-serif;
   z-index: 3;
 }
 
@@ -169,6 +189,7 @@ h4 {
   margin-left: 350px;
   width:600px;
   white-space: normal;
+
 }
 
 .edu {
@@ -194,7 +215,8 @@ h4 {
   z-index: 10;
   margin-top: 20px;
   margin-left: -20px;
-  box-shadow: rgba(255, 255, 255, 0.521) 0px 3px 8px;
+  box-shadow: rgba(255, 255, 255, 0.8) 0px 3px 8px;
+  
 }
 
 ul {
@@ -229,6 +251,7 @@ ul {
   padding: 0;
   cursor: pointer;
   margin-left: 0px;
+
 }
 
 #web2 {
@@ -254,14 +277,17 @@ ul {
 
 }
 
-.webDescBody,
+.webDescBody, .webDescTitle,
 #webTitle {
   margin-right: 50px;
   display: block;
   width: 45%;
+  
 }
 
-
+.webDescTitle {
+  font-family: 'MontBold', sans-serif;
+}
 
 .skills {
   color: white;
@@ -353,7 +379,7 @@ ul {
 }
 
 #git {
-  color: rgb(193, 165, 226);
+  color: #EDDEFF;
 }
 
 @media only screen and (max-width: 1919px) {
@@ -361,6 +387,8 @@ ul {
   .bgImg {
     height: 800px;
   }
+
+  
 }
 
 @media only screen and (min-width: 1920px) {
@@ -378,15 +406,20 @@ ul {
   }
   .bgImg{
     opacity: 30%;
-    z-index: 1;
+    z-index: -1;
+  }
+
+  #body {
+    background-color:transparent;
   }
 
   .welcome {
     z-index:11;
+    
   }
 
   #body {
-    background-color: rgba(0, 0, 0, 0.055);
+    background-color:transparent;
     white-space: normal !important;
 
   }
@@ -394,22 +427,30 @@ ul {
   .header {
     width: 200%;
     z-index: 0;
+    background-color:transparent;
   }
 
 }
 
 @media only screen and (max-width: 1100px) {
   .App {
-   
-    z-index: 0;
+    z-index: -5;
   }
 
 
-  
+  .header{
+    background-color:transparent;
+  }
+
+  .subHeadImg {
+    left:160px;
+    width: 400px;
+    z-index: 1;
+  }
 
   .bgImg{
     opacity: 30%;
-    z-index: 1;
+    z-index: -11;
   }
 
   .welcome {
@@ -418,6 +459,10 @@ ul {
 
   .flip-card,  .flip-card2{
     left: 250px !important;
+  }
+
+  #body{
+    background-color: transparent;
   }
 
   #myWork {
@@ -432,7 +477,7 @@ ul {
 
   .mainTitle{
     font-size: 4rem;
-    left: 100px;
+    left: 70px;
     position: relative;
     margin-top: 100px;
   }
@@ -460,7 +505,7 @@ ul {
     overflow: hidden;
   }
 
- 
+  
 
   #webTitle, #webTitle2 {
     background-color: rgba(0, 0, 0, 0.8);
@@ -472,7 +517,7 @@ ul {
 
   .bgImg{
     opacity: 20%;
-    z-index: 1;
+    z-index: 0;
     border-radius: 40%;
   }
 
@@ -497,7 +542,7 @@ ul {
   }
 
   .webTitle {
-    background-color: rgba(0, 0, 0, 0.671);
+    background-color: rgba(255, 249, 249, 0);
     width: 150px;
   }
 
@@ -507,9 +552,16 @@ ul {
   z-index: 12;
 }
 
+.subHeadImg {
+  left:60px;
+  width: 300px;
+  z-index: 5;
+  margin-top:160px;
+}
+
 
   .mainTitle{
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     top: 2px;
     left: 28px;
     margin-bottom: 0;
