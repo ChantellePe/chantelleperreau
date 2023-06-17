@@ -45,7 +45,6 @@ function App() {
     <section>
       <h1 className="mainTitle">Chantelle Perreau</h1>
       <img src={img} className='bgImg' alt="Chantelle Perreau"></img>
-      <h2 className="subheading"></h2>
       <img src={fs} className='subHeadImg' alt="Full Stack Web Developer"></img>
       <button className="check">
       <a href="#myWork">View My Work</a>
