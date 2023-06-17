@@ -103,6 +103,8 @@ function App() {
           <h4 className="webDescBody">Girly Gomoku</h4>
           <p id="webTitle" className={button1Class}>Girly Gomoku is a web application built with React.js on the frontend, Express.js on the backend for server-side logic and a RESTful API, and MongoDB as the database. <br></br><br></br>
             The app consists of a tongue-in-cheek design meant to satirize websites targeted towards women, hence the playful moniker 'Girly Gomoku'. <br></br><br></br>Users are able to register, play and retrieve completed games from the database, making for an enjoyable gaming experience. <br></br><br></br>The application is hosted using Heroku and Netlify (free tier).</p>
+            <p className="mobDesc" >Girly Gomoku is a web application built with React.js on the frontend, Express.js on the backend for server-side logic and a RESTful API, and MongoDB as the database. <br></br><br></br>
+            The app consists of a tongue-in-cheek design meant to satirize websites targeted towards women, hence the playful moniker 'Girly Gomoku'. <br></br><br></br>Users are able to register, play and retrieve completed games from the database, making for an enjoyable gaming experience. <br></br><br></br>The application is hosted using Heroku and Netlify (free tier).</p>
         </div>
         </a>
       </button>
@@ -115,6 +117,7 @@ function App() {
         <div className='exampleDescription'>
           <h4 className="webDescBody">University Grade Calculator</h4>
           <p id="webTitle2" className={button2Class}>The University Grade Calculator is a front end application written in vanilla Javascript (with some animations achieved using JQuery). It calculates your final grade based on your assessment results. <br></br><br></br>There are 8 seperate calculators as well as a customisable calculator that can take up to 10 assessments. <br></br><br></br>Users can use the 8 pre-built calculators to determine how I scored in that particular unit. <br></br><br></br>The application is hosted using Netlify (free tier).</p>
+          <p className ="mobDesc">The University Grade Calculator is a front end application written in vanilla Javascript (with some animations achieved using JQuery). It calculates your final grade based on your assessment results. <br></br><br></br>There are 8 seperate calculators as well as a customisable calculator that can take up to 10 assessments. <br></br><br></br>Users can use the 8 pre-built calculators to determine how I scored in that particular unit. <br></br><br></br>The application is hosted using Netlify (free tier).</p>
         </div>
         </a>
       </button>

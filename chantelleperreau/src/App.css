@@ -135,6 +135,10 @@ h4 {
 
 }
 
+.mobDesc {
+  visibility: hidden;
+  display: none;
+}
 
 .body {
   position: absolute;
@@ -451,8 +455,9 @@ ul {
 
 @media only screen and (max-width: 700px) {
   .App {
-   
+    height:2235px;
     z-index: 0;
+    overflow: hidden;
   }
 
  
@@ -488,7 +493,7 @@ ul {
 
   #web2 {
     left:-240px;
-    top: 1200px;
+    top: 1500px;
   }
 
   .webTitle {
@@ -528,13 +533,37 @@ ul {
   }
 
   #web1:hover {
-    transform: scale(1.1) ;
+    transform: none;
     z-index: 12;
   }
   
   #web2:hover {
-    transform: scale(1.1);
+    transform: none;
     z-index: 12;
+  }
+
+  #webTitle2, #webTitle {
+    visibility: hidden;
+    display: none;
+  }
+
+  .mobDesc{
+    visibility: visible;
+    display: block;
+    color: white;
+    margin-top: -5px;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    white-space: break-spaces;
+    height: 600px;
+    width: 240px;
+    left:25px;
+  }
+
+  footer {
+    text-align: center;
+    margin-left: 40px;
   }
 
 }
