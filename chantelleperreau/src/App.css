@@ -504,18 +504,19 @@ ul {
   .mainTitle{
     font-size: 2.5rem;
     top: 50px;
-    left: 35px;
+    left: 45px;
     margin-bottom: 0;
   }
   .subheading{
     font-size: 1.4rem;
-    left: 60px;
+    left:75px;
     margin-top: -10px;
   }
 
   .check{
-    font-size: 1.7rem;
-    left: -30px;
+    font-size: 1.6rem;
+    left: -2px;
+    width:250px;
     
   }
 
