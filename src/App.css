@@ -6,7 +6,6 @@
 }
 
 .App {
- 
   text-align: center;
   width: 100%;
   max-width: 100%;
@@ -49,6 +48,7 @@ footer {
   overflow-x: hidden;
   font-family: 'MontBold', sans-serif;
   margin-left: 20px;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;;
 }
 
 h3 {
@@ -78,7 +78,6 @@ h4 {
   z-index: 5;
 }
 
-.subheading,
 .check {
   display: block;
   color: white;
@@ -95,14 +94,14 @@ h4 {
   z-index: 0;
   position: fixed;
   right: 1px;
-  background-color: rgb(247, 241, 241);
+  background-color: #ffffff;
 
 }
 
 .check {
   position: absolute;
   display: block;
-  box-shadow: -6px 6px 0 rgb(71, 2, 121);
+  box-shadow: -6px 6px 0 #470279;
   color: rgb(255, 255, 255);
   border: 3px solid rgb(61, 0, 105);
   background-color: black;
@@ -189,7 +188,7 @@ h4 {
   margin-left: 350px;
   width:600px;
   white-space: normal;
-
+  font-size: 1.2rem;
 }
 
 .edu {
@@ -199,13 +198,13 @@ h4 {
 .intro,
 .about {
   z-index: 6;
-
 }
 
 #myWork {
   color: white;
-  margin-top: 850px;
+  margin-top: 900px;
   margin-left: 575px;
+  font-family: 'MontBold', sans-serif;
 }
 
 .projectBtn {
@@ -251,7 +250,6 @@ ul {
   padding: 0;
   cursor: pointer;
   margin-left: 0px;
-
 }
 
 #web2 {
@@ -261,7 +259,6 @@ ul {
   cursor: pointer;
   z-index: 5;
   margin-left: 320px;
-
 }
 
 .exampleDescription {
@@ -274,7 +271,6 @@ ul {
   height: 600px;
   width: 650px;
   left: -25px;
-
 }
 
 .webDescBody, .webDescTitle,
@@ -282,7 +278,6 @@ ul {
   margin-right: 50px;
   display: block;
   width: 45%;
-  
 }
 
 .webDescTitle {
@@ -317,7 +312,6 @@ ul {
   perspective: 1000px;
   z-index: 4;
   cursor: pointer;
-
 }
 
 .flip-card2 {
@@ -331,13 +325,11 @@ ul {
   text-align: center;
   transition: transform 1.2s;
   transform-style: preserve-3d;
-
 }
 
 .flip-card:hover .flip-card-inner,
 .flip-card2:hover .flip-card-inner {
   transform: rotateY(180deg);
-
 }
 
 
@@ -348,8 +340,6 @@ ul {
   backface-visibility: hidden;
   width: 200px;
   height: 170px;
-
-
 }
 
 .flip-card-front {
@@ -357,8 +347,6 @@ ul {
   color: rgb(240, 240, 240);
   width: 200px;
   height: 140px;
-
-
 }
 
 .flip-card-front2 {
@@ -366,7 +354,6 @@ ul {
   color: rgb(240, 240, 240);
   width: 200px;
   height: 140px;
-
 }
 
 
@@ -405,7 +392,7 @@ ul {
 
   }
   .bgImg{
-    opacity: 30%;
+    opacity: 25%;
     z-index: -1;
   }
 
@@ -415,13 +402,11 @@ ul {
 
   .welcome {
     z-index:11;
-    
   }
 
   #body {
     background-color:transparent;
     white-space: normal !important;
-
   }
 
   .header {
@@ -429,14 +414,12 @@ ul {
     z-index: 0;
     background-color:transparent;
   }
-
 }
 
 @media only screen and (max-width: 1100px) {
   .App {
     z-index: -5;
   }
-
 
   .header{
     background-color:transparent;
@@ -449,7 +432,7 @@ ul {
   }
 
   .bgImg{
-    opacity: 30%;
+    opacity: 20%;
     z-index: -11;
   }
 
@@ -473,18 +456,13 @@ ul {
     left: 80px;
   }
 
-
-
-  .mainTitle{
+  .mainTitle {
     font-size: 4rem;
     left: 70px;
     position: relative;
     margin-top: 100px;
   }
-  .subheading{
-    font-size: 2rem;
-    left: 180px;
-  }
+
 
   .check{
     font-size: 2rem;
@@ -494,18 +472,15 @@ ul {
   .header {
     z-index: 0;
   }
-
 }
 
-
 @media only screen and (max-width: 700px) {
+
   .App {
-    height:2200px;
+    height:2900px;
     z-index: 0;
     overflow: hidden;
   }
-
-  
 
   #webTitle, #webTitle2 {
     background-color: rgba(0, 0, 0, 0.8);
@@ -514,17 +489,16 @@ ul {
     padding: 15px;
   }
   
-
   .bgImg{
-    opacity: 20%;
+    opacity: 15%;
     z-index: 0;
-    border-radius: 40%;
+    height:900px;
   }
 
   .welcome {
    margin-left: 50px;
    width:300px;
-
+   font-size: 1.1rem;
   }
 
   .flip-card,  .flip-card2{
@@ -533,12 +507,12 @@ ul {
 
   #myWork {
     margin-left: 140px;
-    margin-top: 900px;
+    margin-top: 1000px;
   }
 
   #web2 {
     left:-240px;
-    top: 1500px;
+    top: 1900px;
   }
 
   .webTitle {
@@ -546,38 +520,30 @@ ul {
     width: 150px;
   }
 
-  
 #web2:hover, #web1:hover {
   transform: scale(1.3) translateX(1px);
   z-index: 12;
 }
-
 .subHeadImg {
-  left:60px;
-  width: 300px;
+  left:85px;
+  width: 250px;
   z-index: 5;
   margin-top:160px;
 }
 
-
   .mainTitle{
     font-size: 2.4rem;
     top: 2px;
-    left: 28px;
+    left: 35px;
     margin-bottom: 0;
   }
-  .subheading{
-    font-size: 1.4rem;
-    left:75px;
-    margin-top: -10px;
-  }
+
 
   .check{
     font-size: 1.6rem;
     left: -2px;
     width:250px;
     margin-top: -40px;
-    
   }
 
   .header {
@@ -611,11 +577,16 @@ ul {
     height: 600px;
     width: 240px;
     left:23px;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;;
   }
 
   footer {
     text-align: center;
-    margin-left: 40px;
+    margin-left: 70px;
+    margin-top: 2850px;
+    font-size: 0.8rem;
+
   }
 
 }
