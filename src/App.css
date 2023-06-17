@@ -555,18 +555,18 @@ ul {
   #myWork {
     margin-left: 130px;
     margin-top: 870px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
 
   #web1 {
-    left: 60px;
+    left: 70px;
 
   }
 
 
   #web2 {
-    left: -270px;
-    top: 1720px;
+    left: -260px;
+    top: 1710px;
   }
 
   .webTitle {
@@ -597,7 +597,7 @@ ul {
 
   .check {
     font-size: 1.3rem;
-    left: 30px;
+    left: 28px;
     width: 200px;
     margin-top: -80px;
   }
@@ -645,8 +645,8 @@ ul {
 
   footer {
     text-align: center;
-    margin-left: 60px;
-    margin-top: 2860px;
+    margin-left: 70px;
+    margin-top: 2850px;
     font-size: 0.8rem;
 
   }
