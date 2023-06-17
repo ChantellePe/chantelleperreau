@@ -80,7 +80,7 @@ h4 {
 
 .subHeadImg {
     margin-top: 200px;
-    left:360px;
+    left:361px;
     width: 400px;
     position: absolute;
     z-index: 5;
@@ -92,7 +92,7 @@ h4 {
   color: white;
   font-size: 2.5rem;
   z-index: 0;
-  left: 420px;
+  left: 430px;
   top: 180px;
   position: absolute;
 }
@@ -110,7 +110,7 @@ h4 {
 .check {
   position: absolute;
   display: block;
-  box-shadow: -6px 6px 0 rgb(61, 0, 105);
+  box-shadow: -6px 6px 0 rgb(190, 160, 211);
   color: rgb(255, 255, 255);
   border: 5px solid rgb(61, 0, 105);
   background-color: black;
@@ -127,7 +127,7 @@ h4 {
 
 .check:hover {
   top: 303px;
-  box-shadow: -3px 3px 0 rgb(83, 39, 39);
+  box-shadow: -3px 3px 0 rgb(61, 0, 105);
 }
 
 .check::after {
@@ -146,7 +146,7 @@ h4 {
   position: absolute;
   top: 2px;
   left: -4px;
-  background-color: rgb(83, 39, 39);
+  background-color: rgb(61, 0, 105);
   transform: rotate(45deg);
   z-index: -1;
 }
@@ -157,7 +157,7 @@ h4 {
   position: absolute;
   bottom: -4px;
   right: 2px;
-  background-color: rgb(83, 39, 39);
+  background-color:  rgb(61, 0, 105);
   transform: rotate(45deg);
   z-index: -1;
 
@@ -484,7 +484,7 @@ ul {
 
   .check{
     font-size: 2rem;
-    left: 130px;
+    left: 135px;
     margin-top:-10px;
   }
 
@@ -528,7 +528,7 @@ ul {
    margin-left: 50px;
    width:300px;
    font-size: 1.1rem;
-   margin-top: 280px;
+   margin-top: 240px;
   }
 
   .flip-card,  .flip-card2{
@@ -537,7 +537,7 @@ ul {
 
   #myWork {
     margin-left: 140px;
-    margin-top: 900px;
+    margin-top: 870px;
   }
 
   #web2 {
@@ -556,15 +556,15 @@ ul {
 }
 .subHeadImg {
   left:125px;
-  width: 180px;
+  width: 220px;
   z-index: 5;
   margin-top:138px;
 }
 
   .mainTitle{
-    font-size: 1.99rem;
+    font-size: 2.1rem;
     top: 5px;
-    left: 120px;
+    left: 125px;
     margin-bottom: 0;
   }
 
@@ -573,7 +573,7 @@ ul {
     font-size: 1.3rem;
     left: 30px;
     width:200px;
-    margin-top: -50px;
+    margin-top: -80px;
   }
 
   .header {
