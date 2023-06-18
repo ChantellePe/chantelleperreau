@@ -395,8 +395,8 @@ ul {
 
 
   .bgImg {
-    height: 400px;
-    margin-left: 300px;
+    height: 500px;
+    margin-left: 200px;
     top: 100px;
   }
 
@@ -485,6 +485,7 @@ ul {
 
   .bgImg {
     z-index: -1;
+  
   }
 
   #body {
@@ -552,8 +553,9 @@ ul {
   }
 
   .bgImg {
-    height:12%;
-    left:400px;
+    height:400px;
+    left:390px;
+    top: 3px;
   }
 
   .welcome {
@@ -633,10 +635,10 @@ ul {
   }
 
   .bgImg {
-    left: 170px;
+    left: 200px;
     opacity: 100%;
-    height: 200px;
-
+    height: 180px;
+    top:42px;
 
   }
 
