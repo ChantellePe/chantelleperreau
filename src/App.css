@@ -607,13 +607,10 @@ ul {
 @media only screen and (max-width: 750px) {
 
   .App {
-    height: 3200px;
+    height: 3500px;
     z-index: 0;
     overflow: hidden;
   }
-
-
-
 
   #webTitle,
   #webTitle2 {
@@ -624,19 +621,19 @@ ul {
   }
 
   #web1 {
-   margin-left: -4px;
-   top: -290px;
+   margin-left:10px;
+   top: 50px;
   }
 
 
   #web2 {
-    margin-left: -4px;
-    top: 570px;
+    margin-left: 10px;
+    top: 870px;
     
   }
 
   .bgImg {
-    left: 150px;
+    left: 170px;
     opacity: 100%;
     height: 200px;
 
@@ -644,20 +641,20 @@ ul {
   }
 
   .welcome {
-    margin-left: 50px;
+    margin-left: 55px;
     width: 300px;
     font-size: 1.1rem;
-    margin-top: 500px;
+    margin-top: 750px;
   }
 
   .flip-card,
   .flip-card2 {
-    left: 100px !important;
+    left: 97px !important;
   }
 
   #myWork {
-    margin-left: 130px;
-    margin-top: -220px;
+    margin-left: 145px;
+    margin-top: 100px;
  
 
   }
@@ -676,7 +673,7 @@ ul {
   }
 
   .subHeadImg {
-    left: 100px;
+    left: 110px;
     width: 220px;
     z-index: 5;
     margin-top: 250px;
@@ -685,14 +682,14 @@ ul {
   .mainTitle {
     font-size: 1.8rem;
     top: -75px;
-    left: 100px;
+    left: 110px;
     margin-bottom: 0;
   }
 
   .c {
     top: 170px;
     height: 170px;
-    left: 45px;
+    left: 55px;
   }
 
 
@@ -705,7 +702,7 @@ ul {
 
 
     z-index: 5;
-    left: -550px;
+    left: -540px;
   }
 
   .header {
@@ -751,8 +748,8 @@ ul {
 
   footer {
     text-align: center;
-    margin-left: 70px;
-    margin-top: 3160px;
+    margin-left: 78px;
+    margin-top: 3450px;
     font-size: 0.8rem;
 
   }
