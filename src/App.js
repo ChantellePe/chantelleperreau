@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import img from './utils/CPBW.png'
 import gomoku from './utils/Gomoku.png'
 import calc from './utils/uniGradeCalc.png'
 import fe from './utils/FrontEnd.png'
@@ -39,7 +38,7 @@ function App() {
 
   return (
     <div className="App">
-      <img src={img} className='bgImg' alt="Chantelle Perreau"></img>
+
       <section className="header">
         <div className="imgCont"></div>
 
@@ -47,7 +46,7 @@ function App() {
 
       <section>
         <h1 className="mainTitle">hantelle Perreau</h1>
-        <img src={c} className='c' alt="C"></img>
+        <img src={c} className="c" alt="C"></img>
 
         <img src={fs} className='subHeadImg' alt="Full Stack Web Developer"></img>
         <button className="check">

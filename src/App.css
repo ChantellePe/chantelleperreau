@@ -28,8 +28,8 @@ a {
 
 .c {
   position: absolute;
-  top: 47px;
-  left: -300px;
+  top: 75px;
+  left: 280px;
   height: 230px;
 }
 
@@ -444,9 +444,9 @@ ul {
   }
 
   .c {
-    top: 40px;
+    top: 60px;
     height: 230px;
-    left: -450px
+    left: 120px
   }
 
 
@@ -456,10 +456,10 @@ ul {
   }
 
   .subHeadImg {
-    left: 220px;
+    left: 200px;
     width: 300px;
     z-index: 1;
-    margin-top: 170px;
+    margin-top: 180px;
   }
 
   .bgImg {
@@ -492,14 +492,14 @@ ul {
     font-size: 4rem;
     left: 200px;
     position: relative;
-    margin-top: 100px;
+    margin-top: 120px;
   }
 
 
   .check {
     font-size: 2rem;
     left: 135px;
-    margin-top: -10px;
+    margin-top: 20px;
   }
 
   .header {
@@ -515,13 +515,6 @@ ul {
     overflow: hidden;
   }
 
-  .c {
-
-    top: 50px;
-    height: 170px;
-    left: -360px;
-
-  }
 
 
 
@@ -543,7 +536,7 @@ ul {
     margin-left: 50px;
     width: 300px;
     font-size: 1.1rem;
-    margin-top: 240px;
+    margin-top: 280px;
   }
 
   .flip-card,
@@ -583,22 +576,29 @@ ul {
     left: 125px;
     width: 220px;
     z-index: 5;
-    margin-top: 138px;
+    margin-top: 150px;
   }
 
   .mainTitle {
-    font-size: 2.0rem;
+    font-size: 1.8rem;
     top: 5px;
     left: 125px;
     margin-bottom: 0;
   }
+
+  .c {
+    top: 70px;
+    height: 170px;
+    left: 70px;
+  }
+
 
 
   .check {
     font-size: 1.3rem;
     left: 28px;
     width: 200px;
-    margin-top: -80px;
+    margin-top: -30px;
   }
 
   .header {
