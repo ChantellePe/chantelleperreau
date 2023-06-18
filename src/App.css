@@ -8,7 +8,7 @@
   text-align: center;
   width: 100%;
   max-width: 100%;
-  height: 2050px;
+  height: 2700px;
   background-color: rgb(0, 0, 0);
   margin-top: -50px;
   white-space: nowrap;
@@ -28,9 +28,9 @@ a {
 
 .c {
   position: absolute;
-  top: 75px;
-  left: 280px;
-  height: 230px;
+  top: 300px;
+  left: 350px;
+  height: 250px;
 }
 
 .header {
@@ -50,12 +50,13 @@ footer {
   color: white;
   z-index: 8;
   position: absolute;
-  margin-top: 2000px;
+  margin-top: 2650px;
   overflow-x: hidden;
   font-family: 'MontBold', sans-serif;
-  margin-left: 20px;
+  margin-left: 39.15%;
   font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
+
 
 h3 {
   font-size: 1.8rem;
@@ -70,39 +71,29 @@ h4 {
   float: left;
   position: absolute;
   font-size: 5rem;
-  left: 360px;
+  left: 450px;
   z-index: 7;
   align-self: center;
   font-family: 'MontBold', sans-serif;
-  margin-top: 120px;
+  margin-top: 350px;
 }
 
 .subHeadImg {
-  margin-top: 200px;
-  left: 361px;
+  margin-top: 430px;
+  left:450px;
   width: 400px;
   position: absolute;
   z-index: 5;
 
 }
 
-.check {
-  display: block;
-  color: white;
-  font-size: 2.5rem;
-  z-index: 0;
-  left: 430px;
-  top: 180px;
-  position: absolute;
-}
 
 .bgImg {
-  border-radius: 70% 10% 70% 20%;
+  left:700px;
   overflow: hidden;
-  z-index: 0;
-  position: fixed;
-  right: 1px;
-  background-color: #ffffff;
+  z-index: 1;
+  position: absolute;
+  margin-top: 88px;
 
 }
 
@@ -115,18 +106,22 @@ h4 {
   background-color: black;
   border-radius: 30px;
   width: 300px;
-  top: 300px;
-  margin-left: 80px;
+  top: 600px;
+  margin-left: 650px;
   font-size: 1.8rem;
   padding: 15px 20px;
   cursor: pointer;
   font-family: 'MontBold', sans-serif;
   z-index: 3;
+  color: white;
+  z-index: 5;
+  
 }
 
 .check:hover {
-  top: 303px;
+  top: 603px;
   box-shadow: -3px 3px 0 rgb(61, 0, 105);
+
 }
 
 .check::after {
@@ -192,8 +187,8 @@ h4 {
   bottom: 100px;
   color: white;
   text-align: center;
-  margin-top: 350px;
-  margin-left: 350px;
+  margin-top: 850px;
+  margin-left: 490px;
   width: 600px;
   white-space: normal;
   font-size: 1.2rem;
@@ -215,12 +210,12 @@ h4 {
   z-index: 6;
 }
 
-#myWork,
-#aboutMe {
+#myWork {
   color: white;
-  margin-top: 900px;
-  margin-left: 575px;
+  top: 1550px;
+  margin-left: 725px;
   font-family: 'MontBold', sans-serif;
+  position: absolute;
 }
 
 #aboutMe {
@@ -232,9 +227,9 @@ h4 {
   width: 280px;
   height: 160px;
   z-index: 10;
-  margin-top: 20px;
   margin-left: -20px;
   box-shadow: rgba(255, 255, 255, 0.8) 0px 3px 8px;
+  position: absolute;
 
 }
 
@@ -251,6 +246,7 @@ ul {
 #web2 {
   transition: transform .7s ease-in-out;
   position: absolute;
+  margin-top: 1650px;
 
 }
 
@@ -269,7 +265,7 @@ ul {
   border: none;
   padding: 0;
   cursor: pointer;
-  margin-left: 10px;
+  margin-left: 480px;
 }
 
 #web2 {
@@ -278,7 +274,7 @@ ul {
   padding: 0;
   cursor: pointer;
   z-index: 5;
-  margin-left: 340px;
+  margin-left: 850px;
 }
 
 .exampleDescription {
@@ -329,7 +325,7 @@ ul {
   width: 200px;
   height: 140px;
   position: relative;
-  left: 540px;
+  left: 680px;
   perspective: 1000px;
   z-index: 4;
   cursor: pointer;
@@ -390,26 +386,96 @@ ul {
   color: #EDDEFF;
 }
 
-@media only screen and (max-width: 1919px) {
-
-  .bgImg {
-    height: 800px;
-  }
-
-
-}
 
 @media only screen and (min-width: 1920px) {
 
-  .bgImg {
-    height: 1100px;
+  .App {
+    height: 2890px;
   }
+
+
+  .bgImg {
+    height: 400px;
+    margin-left: 300px;
+    top: 100px;
+  }
+
+  footer {
+    margin-top: 2840px;
+    margin-left: 820px;
+  }
+
+  .c {
+    left:530px;
+    top:400px;
+  }
+
+  .mainTitle {
+    left:650px;
+    top: 100px;
+  }
+  
+  .subHeadImg {
+    margin-top: 430px;
+    left:650px;
+    top: 100px;
+  
+  }
+
+  
+  .check {
+   margin-left: 800px;
+   top: 700px;
+  }
+
+  .check:hover {
+    top: 703px;
+  }
+
+
+  .flip-card,
+.flip-card2 {
+  margin-left: 165px;
+}
+
+  .welcome {
+    margin-top: 1000px;
+    margin-left: 650px;
+  }
+
+  .edu {
+    margin-top: 20px;
+  }
+
+  #myWork {
+    margin-left: 890px;
+    margin-top: 200px;
+  }
+
+  .projectBtn {
+    margin-left: 150px;
+    margin-top: 200px;
+  }
+
+  .exampleDescription {
+    margin-left: 169px;
+    margin-top: 190px;
+  }
+
+  #web1:hover {
+    transform: scale(1.4) translateX(-40px);
+    z-index: 12;
+  }
+  
+  #web2:hover {
+    transform: scale(1.4) translateX(-115px);
+    z-index: 12;
+  }
+  
+
 }
 
 @media only screen and (max-width: 1400px) {
-
-
-
 
   .App {
     width: 200%;
@@ -418,7 +484,6 @@ ul {
   }
 
   .bgImg {
-    opacity: 25%;
     z-index: -1;
   }
 
@@ -441,39 +506,68 @@ ul {
 @media only screen and (max-width: 1100px) {
   .App {
     z-index: -5;
+    height: 2500px;
   }
 
-  .c {
-    top: 60px;
-    height: 230px;
-    left: 120px
+  #web1,
+  #web2 {
+    transition: transform .7s ease-in-out;
+    position: absolute;
+    margin-top: 1550px;
+    
   }
 
+  #web1 {
+    margin-left: 50px;
+  }
 
+  #web2 {
+    margin-left: 370px;
+  }
 
   .header {
     background-color: transparent;
   }
 
+  .mainTitle {
+    font-size: 4rem;
+    left: 190px;
+    position: relative;
+    margin-top: 300px;
+  }
+
+  .c {
+    top: 240px;
+    height: 230px;
+    left: 90px;
+  }
+
+
+
   .subHeadImg {
-    left: 200px;
+    left: 190px;
     width: 300px;
     z-index: 1;
-    margin-top: 180px;
+    margin-top: 360px;
   }
 
   .bgImg {
-    opacity: 20%;
-    z-index: -11;
+    height:12%;
+    left:400px;
   }
 
   .welcome {
-    margin-left: 60px;
+    margin-left: 108px;
+    margin-top: 800px;
+  }
+
+  .edu, .git {
+    margin-top: 1px;
   }
 
   .flip-card,
   .flip-card2 {
-    left: 250px !important;
+    left: 305px !important;
   }
 
   #body {
@@ -481,24 +575,27 @@ ul {
   }
 
   #myWork {
-    margin-left: 300px;
+    top: 1400px;
+    margin-left: 350px;
+    
   }
 
   .portfolio {
     left: 80px;
   }
 
-  .mainTitle {
-    font-size: 4rem;
-    left: 200px;
-    position: relative;
-    margin-top: 120px;
+  footer {
+    margin-top: 2450px;
+    margin-left: 30%;
+
   }
+
+
 
 
   .check {
     font-size: 2rem;
-    left: 135px;
+    left: -390px;
     margin-top: 20px;
   }
 
@@ -510,7 +607,7 @@ ul {
 @media only screen and (max-width: 750px) {
 
   .App {
-    height: 2900px;
+    height: 3200px;
     z-index: 0;
     overflow: hidden;
   }
@@ -526,17 +623,31 @@ ul {
     padding: 15px;
   }
 
+  #web1 {
+   margin-left: -4px;
+   top: -290px;
+  }
+
+
+  #web2 {
+    margin-left: -4px;
+    top: 570px;
+    
+  }
+
   .bgImg {
-    opacity: 15%;
-    z-index: 0;
-    height: 900px;
+    left: 150px;
+    opacity: 100%;
+    height: 200px;
+
+
   }
 
   .welcome {
     margin-left: 50px;
     width: 300px;
     font-size: 1.1rem;
-    margin-top: 280px;
+    margin-top: 500px;
   }
 
   .flip-card,
@@ -546,20 +657,12 @@ ul {
 
   #myWork {
     margin-left: 130px;
-    margin-top: 870px;
-    margin-bottom: 15px;
-  }
-
-  #web1 {
-    left: 70px;
+    margin-top: -220px;
+ 
 
   }
 
-
-  #web2 {
-    left: -260px;
-    top: 1710px;
-  }
+  
 
   .webTitle {
     background-color: rgba(255, 249, 249, 0);
@@ -576,18 +679,18 @@ ul {
     left: 100px;
     width: 220px;
     z-index: 5;
-    margin-top: 150px;
+    margin-top: 250px;
   }
 
   .mainTitle {
     font-size: 1.8rem;
-    top: 5px;
+    top: -75px;
     left: 100px;
     margin-bottom: 0;
   }
 
   .c {
-    top: 70px;
+    top: 170px;
     height: 170px;
     left: 45px;
   }
@@ -596,9 +699,13 @@ ul {
 
   .check {
     font-size: 1.3rem;
-    left: 28px;
     width: 200px;
-    margin-top: -30px;
+    margin-top: -170px;
+  
+
+
+    z-index: 5;
+    left: -550px;
   }
 
   .header {
@@ -645,7 +752,7 @@ ul {
   footer {
     text-align: center;
     margin-left: 70px;
-    margin-top: 2850px;
+    margin-top: 3160px;
     font-size: 0.8rem;
 
   }
