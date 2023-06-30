@@ -7,6 +7,8 @@ import be from './utils/Back.png'
 import fs from './utils/FullStack.png'
 import c from './utils/BigC.png'
 import aj from './utils/meandaj.png'
+import proj from './utils/Proj.png'
+import me from './utils/AboutMe.png'
 
 import './App.css';
 import 'animate.css';
@@ -57,9 +59,12 @@ function App() {
       </section>
 
       <section id="body">
+        
         <div className='welcome'>
+        
           <p className='intro'>Welcome to my site.<br></br></p>
           <p className='about'>I am a Sydney-based Web Developer with a passion for creating captivating and interactive interfaces that engage and inspire.</p>
+          
           <p>My skills includes:</p>
         </div>
         <div className="flip-card">
@@ -92,13 +97,16 @@ function App() {
                 <li>API Integrations/SQL</li>
               </ul>
             </div>
+            
           </div>
+          <img src={me} id= "me" className='projImg' alt="Chantelle Perreau"></img>
         </div>
 
         <p className='welcome intro edu'>I currently hold a Graduate Diploma of Information Technology from UNE, where I graduated with a GPA of 7.0 and an average grade of 94.5%</p>
         <p className='welcome intro edu'>Git: <a id="git" href="https://github.com/ChantellePe/">https://github.com/ChantellePe/</a></p>
 
         <div className='welcome'>
+          
           <h3 className="about hidden" id="aboutMe">About Me<br></br></h3>
           
           <p className='intro hidden'>Currently living in Sydney's North Shore with my husband and daughter, I enjoy several hobbies including singing, playing piano and tutoring code to beginners. </p>
@@ -108,7 +116,8 @@ function App() {
 
 
         <div id="content">
-          <h3 id="myWork">Projects</h3>
+          <img src={proj} id='myWork' className='projImg' alt="Chantelle Perreau"></img>
+          <h3 id="myWorkH2 hidden" >Projects</h3>
           <button className="portfolio" id="web1"
             onMouseEnter={handleButton1MouseEnter}
             onMouseLeave={handleButton1MouseLeave}>

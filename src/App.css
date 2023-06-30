@@ -57,6 +57,22 @@ footer {
   font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
+#me {
+  width: 160%;
+  top: -460px;
+  margin-left: -120px;
+  position: absolute;
+  cursor: auto;
+}
+
+.projImg {
+
+  position: absolute;
+  left: -600px;
+  margin-top: 160px;
+  width: 300%;
+  padding-top: 50px;;
+}
 
 h3 {
   font-size: 1.8rem;
@@ -188,7 +204,7 @@ h4 {
   color: white;
   text-align: center;
   margin-top: 850px;
-  margin-left: 490px;
+  margin-left: 700px;
   width: 600px;
   white-space: normal;
   font-size: 1.2rem;
@@ -226,8 +242,8 @@ h4 {
   position: absolute;
   width: 280px;
   height: 160px;
-  z-index: 10;
-  margin-left: -20px;
+  z-index: 10;  
+
   box-shadow: rgba(255, 255, 255, 0.8) 0px 3px 8px;
   position: absolute;
 
@@ -265,7 +281,7 @@ ul {
   border: none;
   padding: 0;
   cursor: pointer;
-  margin-left: 480px;
+  margin-left: 640px;
 }
 
 #web2 {
@@ -274,7 +290,7 @@ ul {
   padding: 0;
   cursor: pointer;
   z-index: 5;
-  margin-left: 850px;
+  margin-left: 970px;
 }
 
 .exampleDescription {
@@ -286,15 +302,16 @@ ul {
   white-space: break-spaces;
   height: 600px;
   width: 650px;
-  left: -25px;
+  left: -12px;
 }
 
 .webDescBody,
 .webDescTitle,
-#webTitle {
+#webTitle, #webTitle2  {
   margin-right: 50px;
   display: block;
-  width: 45%;
+  width: 47%;
+  left: -35px;
 }
 
 .webDescTitle {
@@ -325,7 +342,7 @@ ul {
   width: 200px;
   height: 140px;
   position: relative;
-  left: 680px;
+  left: 890px;
   perspective: 1000px;
   z-index: 4;
   cursor: pointer;
