@@ -117,7 +117,7 @@ function App() {
 
         <div id="content">
           <img src={proj} id='myWork' className='projImg' alt="Chantelle Perreau"></img>
-          <h3 id="myWorkH2 hidden" >Projects</h3>
+          <h3 className="invisible">Projects</h3>
           <button className="portfolio" id="web1"
             onMouseEnter={handleButton1MouseEnter}
             onMouseLeave={handleButton1MouseLeave}>
