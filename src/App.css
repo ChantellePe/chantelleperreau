@@ -100,7 +100,6 @@ h4 {
   width: 400px;
   position: absolute;
   z-index: 5;
-
 }
 
 
@@ -411,7 +410,7 @@ ul {
 @media only screen and (min-width: 1920px) {
 
   .App {
-    height: 2700px;
+    height: 3000px;
   }
 
   .projImg {
@@ -427,7 +426,7 @@ ul {
   }
 
   footer {
-    margin-top: 2650px;
+    margin-top: 2950px;
     margin-left: 820px;
   }
 
@@ -547,15 +546,13 @@ ul {
     transition: transform .7s ease-in-out;
     position: absolute;
     margin-top: 1550px;
-    
+
   }
 
   #myWork{
     margin-left: 845px;
     margin-top: 80px;
     top: 1380px;
- 
-
   }
 
   #web1 {
@@ -582,8 +579,6 @@ ul {
     height: 230px;
     left: 90px;
   }
-
-
 
   .subHeadImg {
     left: 190px;
@@ -615,7 +610,6 @@ ul {
   #body {
     background-color: transparent;
   }
-
   
   .portfolio {
     left: 60px;
@@ -626,9 +620,6 @@ ul {
     margin-left: 30%;
 
   }
-
-
-
 
   .check {
     font-size: 2rem;
@@ -662,7 +653,6 @@ ul {
    top: 50px;
   }
 
-
   #web2 {
     margin-left: 10px;
     top: 870px;
@@ -693,13 +683,7 @@ ul {
    margin-left: 680px;
    margin-top: 60px;
    width: 250px;
-  
   }
-
-
-
-
-  
 
   .webTitle {
     background-color: rgba(255, 249, 249, 0);
@@ -732,15 +716,10 @@ ul {
     left: 55px;
   }
 
-
-
   .check {
     font-size: 1.3rem;
     width: 200px;
     margin-top: -170px;
-  
-
-
     z-index: 5;
     left: -540px;
   }
@@ -779,7 +758,7 @@ ul {
     left: 23px;
     font-size: 1.1rem;
     font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    ;
+    
   }
 
   .edu {
@@ -791,7 +770,6 @@ ul {
     margin-left: 78px;
     margin-top: 3450px;
     font-size: 0.8rem;
-
   }
 
 }
